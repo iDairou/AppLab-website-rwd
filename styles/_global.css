@@ -30,6 +30,7 @@ body {
 	border: none;
 	transition: filter 0.3s;
 	border-radius: 5px;
+	letter-spacing: 2px;
 }
 .button:hover {
 	filter: brightness(90%);

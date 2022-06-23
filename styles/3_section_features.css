@@ -1,0 +1,34 @@
+.features__content .heading {
+	font-size: 38px;
+	text-align: left;
+}
+
+.features__content p {
+	line-height: 2;
+	color: #939aa3;
+	margin-bottom: 30px;
+}
+.features__button {
+	background-color: #0181f5;
+	padding: 15px 30px;
+}
+.features__img {
+	text-align: center;
+	margin-top: 30px;
+}
+
+@media screen and (min-width: 699px) {
+	.features__row {
+		min-width: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin: 100px 0;
+	}
+	.features__content {
+		width: 40%;
+	}
+	.features__img {
+		width: 50%;
+	}
+}

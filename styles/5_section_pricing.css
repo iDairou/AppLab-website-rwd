@@ -1,0 +1,114 @@
+.pricing {
+	background-color: #fbfbfb;
+}
+.pricing__row {
+	max-width: 95%;
+}
+.description {
+	text-align: center;
+	color: #8e8d8d;
+	margin-bottom: 30px;
+}
+.profit {
+	color: #8e8d8d;
+}
+.card__list-item {
+	margin: 30px 0;
+}
+.card-header {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 20px;
+	margin: 0 20px;
+}
+.type {
+	font-weight: bold;
+}
+.price {
+	font-weight: bold;
+}
+.price-1 {
+	color: #1087f6;
+}
+.price-2 {
+	color: #fdaf60;
+}
+.price-3 {
+	color: #30d66b;
+}
+.blue {
+	background-color: #e9f4fe;
+}
+.orange {
+	background-color: #fef4ee;
+}
+.green {
+	background-color: #e8fcf1;
+}
+
+.card-button {
+	position: absolute;
+	left: 50%;
+	top: 87%;
+	transform: translate(-50%, -50%);
+	font-size: 15px;
+	background: none;
+	color: #81c2ff;
+	border: 1px solid #54a7f5;
+	transition: background-color 0.3s;
+}
+.card-button:hover {
+	background-color: #54a7f5;
+	color: #fff;
+}
+.card-content {
+	text-align: center;
+	padding: 40px 0 90px 0;
+	margin-bottom: 30px;
+	background-color: #fff;
+	position: relative;
+}
+.profit {
+	margin: 20px 0;
+}
+
+@media screen and (min-width: 699px) {
+	.pricing__cards {
+		margin-bottom: 100px;
+	}
+	.cards__list {
+		display: flex;
+		justify-content: center;
+		align-items: stretch;
+	}
+	.card-header {
+		padding: 30px 15px;
+		margin: 0;
+	}
+	.card-content {
+		min-height: 400px;
+		padding: 40px;
+		margin-bottom: 0;
+	}
+	.description {
+		margin-bottom: 50px;
+	}
+	.card-button {
+		margin-top: 20px;
+		top: 80%;
+	}
+	.cards__list-item {
+		transition: transform 0.2s ease-in;
+	}
+	.cards__list-item:hover {
+		transform: scale(1.1);
+		box-shadow: 0px 0px 7px 0px rgba(66, 68, 90, 1);
+		z-index: 1;
+	}
+}
+
+@media screen and (min-width: 1020px) {
+	.cards__list-item {
+		width: 30%;
+	}
+}

@@ -1,0 +1,26 @@
+.review {
+	margin: 0;
+
+	margin-top: 60px;
+	background-image: url("/images/banner/testmonial.png");
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.review__row {
+	margin: 100px 30px;
+	text-align: center;
+	color: #fff;
+}
+.review__desc {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.review__rating {
+	text-transform: uppercase;
+	font-size: 13px;
+}
+.fa-star {
+	color: gold;
+}

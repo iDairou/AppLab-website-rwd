@@ -75,11 +75,13 @@ a {
 	transform: translateY(25px);
 	transition: transform 0.3s linear;
 }
-.hamburger:focus {
+
+/* Burger ikona nie działa ani na :focus ani na :checked (?)*/
+.hamburger:hover {
 	transform: rotate(45deg) translateY(5px);
 	border: none;
 	cursor: default;
 }
-.hamburger:focus::after {
+.hamburger:hover::after {
 	transform: rotate(-90deg) translateX(-10px);
 }

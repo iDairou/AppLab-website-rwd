@@ -30,7 +30,6 @@ span {
 }
 .header__navbar input:checked ~ .navbar__list {
 	display: flex;
-	overflow: hidden;
 }
 .navbar__logo {
 	position: absolute;

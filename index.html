@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="/styles/3_section_features.css">
     <link rel="stylesheet" href="/styles/4_section_review.css">
     <link rel="stylesheet" href="/styles/5_section_pricing.css">
+    <link rel="stylesheet" href="/styles/6_section_download.css">
+    <link rel="stylesheet" href="/styles/7_footer.css">
     <title>AppLab</title>
 </head>
 
@@ -26,7 +28,7 @@
         <div class="header__row row">
             <nav class="header__navbar">
                 <label for="switch" class="hamburger burger-position"></label>
-                <input type="checkbox" id="switch"></>
+                <input type="checgitkbox" id="switch"></>
 
                 <h1 class="navbar__logo">AppLab</h1>
                 <ul class="navbar__list">
@@ -100,7 +102,7 @@
     </section>
     <section class="review container">
         <div class="review__row row">
-            <h2 class="heading">Review from our regular users</h2>
+            <h2 class="reviev__heading heading">Review from our regular users</h2>
             <p class="review__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus placeat labore quae,
                 ratione eaque qui fugit nulla ullam ipsam magnam.</p>
             <p class="review__rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
@@ -166,9 +168,9 @@
     </section>
     <section class="download container">
         <div class="download__heading heading">
-            <h2 class="title">Get start from now and increase productivity</h2>
+            <h2 class="title">Get start from now <br> and increase productivity</h2>
         </div>
-        <div class="download__stores">
+        <div class="download__stores flex-center">
 
             <a href="#"><img src="/images/app.svg" alt="App store icon"></a>
 
@@ -176,14 +178,24 @@
         </div>
     </section>
     <footer class="footer container">
-        <ul class="footer__lists">
+        <ul class="footer__list">
             <li class="footer__list-item">
-                <h3>AppLab</h3>
+                <h3 id="logo">AppLab</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, repudiandae.</p>
                 <ul class="item-icons">
-                    <li class="icon"> <a href=""><i class="fa fa-twitter"></i></a></li>
-                    <li class="icon"> <a href=""><i class="fa fa-facebook-f"></i></a></li>
-                    <li class="icon"> <a href=""><i class="fa fa-instagram"></i></a></li>
+                    <li class="icon"> <a href=""> <span class="fa-stack">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook-f fa-stack-1x fa-inverse"></i>
+                            </span></a></li>
+                    <li class="icon"> <a href=""> <span class="fa-stack">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span></a></li>
+                    <li class="icon"> <a href=""> <span class="fa-stack">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                            </span></a></li>
+
                 </ul>
             </li>
 
@@ -207,11 +219,12 @@
                 <a href="">Download from Play Store</a>
             </li>
         </ul>
-        <section class="footer__copyrights container">
-            <small>Copyright &copy; 2022 All rights reserved | This template is made with &hearts; by <a
-                    href="#">Colorlib</a></small>
-        </section>
+
     </footer>
+    <section class="copyrights container">
+        <small>Copyright &copy; 2022 All rights reserved | This template is made with &hearts; by <a
+                href="#">Colorlib</a></small>
+    </section>
 </body>
 
 </html>

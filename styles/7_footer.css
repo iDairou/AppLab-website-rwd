@@ -59,6 +59,7 @@
 small a {
 	color: rgb(68, 116, 247);
 }
+/* TABLET VIEW */
 @media screen and (min-width: 699px) {
 	.footer__list {
 		display: flex;
@@ -73,6 +74,7 @@ small a {
 	}
 }
 
+/* DESKTOP VIEW */
 @media screen and (min-width: 1020px) {
 	.footer__list-item {
 		width: 30%;

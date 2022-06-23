@@ -45,7 +45,6 @@
 .green {
 	background-color: #e8fcf1;
 }
-
 .card-button {
 	position: absolute;
 	left: 50%;
@@ -72,6 +71,7 @@
 	margin: 20px 0;
 }
 
+/* TABLET VIEW */
 @media screen and (min-width: 699px) {
 	.pricing__cards {
 		margin-bottom: 100px;
@@ -107,6 +107,7 @@
 	}
 }
 
+/* DESKTOP VIEW */
 @media screen and (min-width: 1020px) {
 	.cards__list-item {
 		width: 30%;

@@ -12,7 +12,6 @@
 .download__stores a {
 	margin: 5px;
 }
-
 @media screen and (min-width: 699px) {
 	.download__heading {
 		text-align: left;
@@ -26,7 +25,6 @@
 	.download__heading {
 		font-size: 35px;
 	}
-
 	.download {
 		display: flex;
 		justify-content: space-around;

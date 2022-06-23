@@ -17,6 +17,7 @@
 	margin-top: 30px;
 }
 
+/* TABLET VIEW */
 @media screen and (min-width: 699px) {
 	.features__row {
 		min-width: 100%;

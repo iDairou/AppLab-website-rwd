@@ -35,12 +35,10 @@ body {
 .button:hover {
 	filter: brightness(90%);
 }
-
 a {
 	text-decoration: none;
 	color: #fff;
 }
-
 .flex-center {
 	display: flex;
 	justify-content: center;
@@ -48,7 +46,6 @@ a {
 }
 
 /* Burger icon */
-
 .hamburger {
 	position: relative;
 	width: 40px;
@@ -75,7 +72,6 @@ a {
 	transform: translateY(25px);
 	transition: transform 0.3s linear;
 }
-
 /* Burger ikona nie działa ani na :focus ani na :checked (?)*/
 .hamburger:hover {
 	transform: rotate(45deg) translateY(5px);

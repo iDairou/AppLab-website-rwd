@@ -72,7 +72,7 @@ a {
 	transform: translateY(25px);
 	transition: transform 0.3s linear;
 }
-/* Burger ikona nie działa ani na :focus ani na :checked (?)*/
+/* Burger ikona nie animuje się ani na :focus ani na :checked (?), jedynie reaguje na :hover*/
 .hamburger:focus {
 	transform: rotate(45deg) translateY(5px);
 	border: none;

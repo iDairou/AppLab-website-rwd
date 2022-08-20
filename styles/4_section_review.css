@@ -9,7 +9,7 @@
 			rgba(35, 120, 237, 0.7) 100%,
 			rgba(65, 255, 153, 0.7) 100%
 		),
-		url("/images/banner/testmonial.png");
+		url("./images/banner/testmonial.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;

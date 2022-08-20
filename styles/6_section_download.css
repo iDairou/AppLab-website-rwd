@@ -7,7 +7,7 @@
 .download {
 	padding: 90px 40px;
 	margin: 0;
-	background-image: url("./images/banner/product.png");
+	background-image: url("../images/banner/product.png");
 }
 .download__stores a {
 	margin: 5px;

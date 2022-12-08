@@ -4,7 +4,7 @@
 
 ### The challenge
 
-The project was prepared for three breakpoints, using the mobile first convention. Project based on design from [Colorlib.](https://colorlib.com/)
+The project was prepared for three breakpoints, using the mobile-first convention. Project-based on a design from [Colorlib.](https://colorlib.com/)
 
 Breakpoints:
 
@@ -27,8 +27,7 @@ Breakpoints:
 
 ## What I learned
 
-This project allowed me to practice more working with BEM methodology, separated `.css` components.
-It was also an opportunity to built project starting with mobile view in accordance with the convention Mobile-First. 
+This project allowed me to practice more working with BEM methodology and separated .css components. It was also an opportunity to build a project starting with a mobile view in accordance with the convention Mobile-First.
 
 ## Copyrights
 

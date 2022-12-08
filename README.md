@@ -1,24 +1,6 @@
-### Overview
-
-# Mobile
-
-![](./assets/mobile.png)
-
-
-# Tablet
-
-![](./assets/tablet.png)
-
-
-# Desktop
-
-![](./assets/desktop.png)
-
-
-
 # Responsive website design using HTML & CSS (RWD).
 
-
+![](./assets/main.png)
 
 ### The challenge
 
@@ -30,9 +12,8 @@ Breakpoints:
 - tablet (from 768px to 1200px)
 - desktop (from 1200px)
 
-### Links:
+### Link:
 
-- Code: [See my code](https://github.com/iDairou/AppLab-website-rwd)
 - Live: [Check it out](https://idairou.github.io/AppLab-website-rwd/)
 
 ## Built with:
@@ -57,3 +38,21 @@ The template may be used in accordance with the [licence](https://colorlib.com/w
 ## Special thanks
 
 Thanks to my [Mentor - devmentor.pl](https://devmentor.pl/) - for providing me with this task and for code review.
+
+### Overview
+
+# Mobile
+
+![](./assets/mobile.png)
+
+
+# Tablet
+
+![](./assets/tablet.png)
+
+
+# Desktop
+
+![](./assets/desktop.png)
+
+

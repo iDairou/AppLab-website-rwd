@@ -1,4 +1,4 @@
-# Responsive website design using HTML & CSS (RWD).
+# Responsive website design using HTML & CSS (RWD)
 
 ![](./assets/main.png)
 

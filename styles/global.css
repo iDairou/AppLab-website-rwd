@@ -50,6 +50,7 @@ a {
 
 /* Burger icon */
 .hamburger {
+	appearance: none;
 	position: relative;
 	width: 40px;
 	border: 0;
@@ -76,11 +77,11 @@ a {
 	transition: transform 0.3s linear;
 }
 /* Burger ikona nie animuje się ani na :focus ani na :checked (?), jedynie reaguje na :hover*/
-.hamburger:focus {
+.hamburger:checked {
 	transform: rotate(45deg) translateY(5px);
 	border: none;
-	cursor: default;
+	cursor: pointer;
 }
-.hamburger:focus::after {
+.hamburger:checked::after {
 	transform: rotate(-90deg) translateX(-10px);
 }

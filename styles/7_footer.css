@@ -16,10 +16,7 @@
 	display: flex;
 	margin-bottom: 15px;
 }
-.icon {
-	margin-bottom: 20px;
-	rotate: 270deg;
-}
+
 .icon a {
 	display: flex;
 	color: #676868;
@@ -49,6 +46,9 @@
 	display: flex;
 	flex-direction: column;
 }
+.icon {
+	margin-bottom: 25px;
+}
 
 .copyrights {
 	padding: 15px;
@@ -70,10 +70,7 @@ small a {
 	.footer__list-item {
 		width: 40%;
 	}
-	.icon {
-		margin: 20px 0;
-		rotate: 270deg;
-	}
+
 }
 
 /* DESKTOP VIEW */

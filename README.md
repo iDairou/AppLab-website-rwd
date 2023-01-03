@@ -53,5 +53,3 @@ Thanks to my [Mentor - devmentor.pl](https://devmentor.pl/) - for providing me w
 # Desktop
 
 ![](./assets/desktop.png)
-
-
